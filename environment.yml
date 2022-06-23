@@ -1,0 +1,4 @@
+name: opensense_workshop
+dependencies:
+  - pandas
+  - glob
