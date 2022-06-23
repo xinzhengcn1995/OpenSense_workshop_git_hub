@@ -6,5 +6,5 @@ The goal within the ToDos of this repository is to learn and practice how to con
 The Todos for the workshop particpiants are to: 
 * add an own file
 * modify another file
-* delete a file  
+* delete a file  A
 
