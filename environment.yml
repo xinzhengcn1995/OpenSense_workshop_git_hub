@@ -1,3 +1,4 @@
 name: opensense_workshop
 dependencies:
   - pandas
+  - matplotlib
