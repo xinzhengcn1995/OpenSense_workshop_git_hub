@@ -5,7 +5,7 @@ def read_multi_csv(path=""):
     import pandas as pd
     
     all_filenames = [i for i in glob.glob(path+'*.{}'.format('csv'))]
-    combined_data = pd.concat([pd.read_csv(f) for f in all_filenames ])
+    combined_data = pd.concat([pd.read_csv(f,sep=';') for f in all_filenames ])
     return combined_data
 
 def barplot_data(data,variable=None):
